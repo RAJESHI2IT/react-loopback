@@ -1,14 +1,15 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "memory",
+    "file":"db.json"
   },
-  "mysqlDs": {
+  "psqlDs": {
     "host": "localhost",
     "database": "loopback",
     "username": "pguser",
     "password": "pgpass",
-    "name": "mysqlDs",
+    "name": "psqlDs",
     "connector": "postgresql"
   }
 }
